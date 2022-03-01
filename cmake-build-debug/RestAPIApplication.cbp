@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="RestAPIApplication"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\Drogon\;CMake Files\..\..\..\..\usr\local\lib\cmake\Trantor\;CMake Files\..\..\..\..\usr\local\lib\cmake\libbsoncxx-3.6.6\;CMake Files\..\..\..\..\usr\local\lib\cmake\libmongocxx-3.6.6\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/onfame/CLionProjects/RestAPIApplication/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/onfame/CLionProjects/RestAPIApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/onfame/CLionProjects/RestAPIApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/onfame/CLionProjects/RestAPIApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/onfame/CLionProjects/RestAPIApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/onfame/CLionProjects/RestAPIApplication/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/onfame/CLionProjects/RestAPIApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/onfame/CLionProjects/RestAPIApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/onfame/CLionProjects/RestAPIApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/onfame/CLionProjects/RestAPIApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/onfame/CLionProjects/RestAPIApplication/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/onfame/CLionProjects/RestAPIApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/onfame/CLionProjects/RestAPIApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/onfame/CLionProjects/RestAPIApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/onfame/CLionProjects/RestAPIApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RestAPIApplication">
+				<Option output="/home/onfame/CLionProjects/RestAPIApplication/cmake-build-debug/RestAPIApplication" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/onfame/CLionProjects/RestAPIApplication/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/lib/libmongocxx.so"/>
+					<Add directory="/usr/local/lib/libbsoncxx.so"/>
+					<Add directory="/usr/local/include/mongocxx/v_noabi"/>
+					<Add directory="/usr/local/include/bsoncxx/v_noabi"/>
+					<Add directory="/usr/local/include/libmongoc-1.0"/>
+					<Add directory="/usr/local/include/libbson-1.0"/>
+					<Add directory="/usr/include/jsoncpp"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/onfame/CLionProjects/RestAPIApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 RestAPIApplication"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/onfame/CLionProjects/RestAPIApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/onfame/CLionProjects/RestAPIApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/onfame/CLionProjects/RestAPIApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RestAPIApplication/fast">
+				<Option output="/home/onfame/CLionProjects/RestAPIApplication/cmake-build-debug/RestAPIApplication" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/onfame/CLionProjects/RestAPIApplication/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/lib/libmongocxx.so"/>
+					<Add directory="/usr/local/lib/libbsoncxx.so"/>
+					<Add directory="/usr/local/include/mongocxx/v_noabi"/>
+					<Add directory="/usr/local/include/bsoncxx/v_noabi"/>
+					<Add directory="/usr/local/include/libmongoc-1.0"/>
+					<Add directory="/usr/local/include/libbson-1.0"/>
+					<Add directory="/usr/include/jsoncpp"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/onfame/CLionProjects/RestAPIApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 RestAPIApplication/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/onfame/CLionProjects/RestAPIApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/onfame/CLionProjects/RestAPIApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/onfame/CLionProjects/RestAPIApplication/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/onfame/CLionProjects/RestAPIApplication/main.cpp">
+			<Option target="RestAPIApplication"/>
+		</Unit>
+		<Unit filename="/home/onfame/CLionProjects/RestAPIApplication/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/onfame/CLionProjects/RestAPIApplication/../../../../usr/local/lib/cmake/Drogon/DrogonConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Drogon\"/>
+		</Unit>
+		<Unit filename="/home/onfame/CLionProjects/RestAPIApplication/../../../../usr/local/lib/cmake/Drogon/DrogonConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Drogon\"/>
+		</Unit>
+		<Unit filename="/home/onfame/CLionProjects/RestAPIApplication/../../../../usr/local/lib/cmake/Drogon/DrogonTargets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Drogon\"/>
+		</Unit>
+		<Unit filename="/home/onfame/CLionProjects/RestAPIApplication/../../../../usr/local/lib/cmake/Drogon/DrogonTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Drogon\"/>
+		</Unit>
+		<Unit filename="/home/onfame/CLionProjects/RestAPIApplication/../../../../usr/local/lib/cmake/Drogon/DrogonUtilities.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Drogon\"/>
+		</Unit>
+		<Unit filename="/home/onfame/CLionProjects/RestAPIApplication/../../../../usr/local/lib/cmake/Drogon/FindFilesystem.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Drogon\"/>
+		</Unit>
+		<Unit filename="/home/onfame/CLionProjects/RestAPIApplication/../../../../usr/local/lib/cmake/Drogon/FindJsoncpp.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Drogon\"/>
+		</Unit>
+		<Unit filename="/home/onfame/CLionProjects/RestAPIApplication/../../../../usr/local/lib/cmake/Drogon/FindUUID.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Drogon\"/>
+		</Unit>
+		<Unit filename="/home/onfame/CLionProjects/RestAPIApplication/../../../../usr/local/lib/cmake/Drogon/ParseAndAddDrogonTests.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Drogon\"/>
+		</Unit>
+		<Unit filename="/home/onfame/CLionProjects/RestAPIApplication/../../../../usr/local/lib/cmake/Trantor/TrantorConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Trantor\"/>
+		</Unit>
+		<Unit filename="/home/onfame/CLionProjects/RestAPIApplication/../../../../usr/local/lib/cmake/Trantor/TrantorConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Trantor\"/>
+		</Unit>
+		<Unit filename="/home/onfame/CLionProjects/RestAPIApplication/../../../../usr/local/lib/cmake/Trantor/TrantorTargets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Trantor\"/>
+		</Unit>
+		<Unit filename="/home/onfame/CLionProjects/RestAPIApplication/../../../../usr/local/lib/cmake/Trantor/TrantorTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Trantor\"/>
+		</Unit>
+		<Unit filename="/home/onfame/CLionProjects/RestAPIApplication/../../../../usr/local/lib/cmake/libbsoncxx-3.6.6/libbsoncxx-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\libbsoncxx-3.6.6\"/>
+		</Unit>
+		<Unit filename="/home/onfame/CLionProjects/RestAPIApplication/../../../../usr/local/lib/cmake/libbsoncxx-3.6.6/libbsoncxx-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\libbsoncxx-3.6.6\"/>
+		</Unit>
+		<Unit filename="/home/onfame/CLionProjects/RestAPIApplication/../../../../usr/local/lib/cmake/libmongocxx-3.6.6/libmongocxx-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\libmongocxx-3.6.6\"/>
+		</Unit>
+		<Unit filename="/home/onfame/CLionProjects/RestAPIApplication/../../../../usr/local/lib/cmake/libmongocxx-3.6.6/libmongocxx-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\libmongocxx-3.6.6\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

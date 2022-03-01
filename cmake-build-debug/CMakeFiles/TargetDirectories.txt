@@ -1,0 +1,3 @@
+/home/onfame/CLionProjects/RestAPIApplication/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/onfame/CLionProjects/RestAPIApplication/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/onfame/CLionProjects/RestAPIApplication/cmake-build-debug/CMakeFiles/RestAPIApplication.dir
