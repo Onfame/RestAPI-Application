@@ -11,6 +11,7 @@ RUN apt-get update -y \
     && apt-get install -y git \
     && apt-get install -y openssl \
     && apt-get install -y cmake \
+    && apt-get install -y make\
     && apt-get install -y libmongoc-1.0-0 \
     && apt-get install -y libbson-1.0-0 \
     && apt-get install -y libssl-dev \
@@ -51,12 +52,9 @@ RUN curl -L -O https://github.com/mongodb/mongo-c-driver/releases/download/1.17.
       && make install
 
 
-FROM gcc:latest
+WORKDIR /usr/src/book-service
 
-COPY . /usr/src/myApp
+COPY . ./
 
-WORKDIR /usr/src/myApp
-
-RUN g++ -o RestAPI main.cpp
-
-CMD ["./RestAPI"]
+RUN cmake -DCMAKE_BUILD_TYPE=Release -B build \
+    && cmake --build build

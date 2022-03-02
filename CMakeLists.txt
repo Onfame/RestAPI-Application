@@ -13,18 +13,34 @@ set (PROJECT_SOURCES
         http_server.h
         )
 
-find_package(Drogon CONFIG REQUIRED)
-find_package(libbsoncxx 3.6.6 REQUIRED)
-find_package(libmongocxx 3.6.6 REQUIRED)
+set(DEPENDENCIES
+        Drogon
+        mongocxx
+        bsoncxx
+        )
 
-include_directories(${LIBMONGOCXX_LIBRARIES})
-include_directories(${LIBBSONCXX_LIBRARIES})
-include_directories(${LIBMONGOCXX_INCLUDE_DIRS})
-include_directories(${LIBBSONCXX_INCLUDE_DIRS})
+foreach (DEPENDENCE IN LISTS DEPENDENCIES)
+    find_package(${DEPENDENCE} REQUIRED)
+    if (${DEPENDENCE}_FOUND)
+        message("-- " ${DEPENDENCE} " is FOUND")
+    endif ()
+endforeach ()
 
-target_link_libraries(${PROJECT_NAME} PRIVATE Drogon::Drogon)
-target_link_libraries(${PROJECT_NAME} PRIVATE ${LIBMONGOCXX_LIBRARIES} ${LIBBSONCXX_LIBRARIES})
-target_include_directories (${PROJECT_NAME} PRIVATE /usr/local/include/mongocxx/v_noabi;
+include_directories(
+        ${CMAKE_CURRENT_SOURCE_DIR}/include
+        ${CURL_INCLUDE_DIR}
+        ${PROTOBUF_INCLUDE_DIRS}
+        ${CMAKE_CURRENT_BINARY_DIR}
+        ${LIBMONGOCXX_INCLUDE_DIR}
+        ${LIBBSONCXX_INCLUDE_DIR}
+        /usr/local/include/mongocxx/v_noabi
         /usr/local/include/bsoncxx/v_noabi
-;/usr/local/include/libmongoc-1.0
-;/usr/local/include/libbson-1.0)
+        /usr/local/include/libmongoc-1.0
+        /usr/local/include/libbson-1.0
+)
+
+target_link_libraries(${PROJECT_NAME}
+        Drogon::Drogon
+        mongo::bsoncxx_shared
+        mongo::mongocxx_shared
+        )
