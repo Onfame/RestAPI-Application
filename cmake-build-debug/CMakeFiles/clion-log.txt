@@ -1,9 +1,0 @@
-/home/onfame/CLion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/onfame/CLionProjects/RestAPIApplication
--- jsoncpp verson:1.7.4
--- Found UUID: /usr/lib/x86_64-linux-gnu/libuuid.so
--- Drogon is FOUND
--- mongocxx is FOUND
--- bsoncxx is FOUND
--- Configuring done
--- Generating done
--- Build files have been written to: /home/onfame/CLionProjects/RestAPIApplication/cmake-build-debug
